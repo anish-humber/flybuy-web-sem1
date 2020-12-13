@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>contact us</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact us">
+  <meta name="keywords" content="Html,css,js">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/telephone.png">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+
+
+</head>
+
+<body>
+  <header id="navbar">
+    <nav class="navbar-container container">
+        <button type="button" class="navbar-toggle" aria-label="Open navigation menu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    <nav class="navbar-container container">
+        <div class="navbar-menu">
+            <ul class="navbar-links">
+                <li><a href="index.html" class="home-link"><div class="navbar-logo" id="logo"></div></a></li>
+                <li class="navbar-item"><a class="navbar-link-inner" href="index.html">Home</a></li>
+                <li class="navbar-item"><a class="navbar-link-inner" href="about.html">About Us</a>
+                </li>
+                <li class="navbar-item"><a class="navbar-link-inner" href="User_profile.html">User Profile</a></li>
+                <li class="navbar-item"><a class="navbar-link-inner" href="Terms&Conditions.html">Terms and Conditions</a></li>
+                <li class="navbar-item"><a class="navbar-link-inner" href="contact.html">Contact Us</a></li>
+                <li class="navbar-item"><a class="navbar-link-inner" href="login.html">Log In</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+  <div class="container contact-form">
+    <div class="contact-image">
+      <img src="./img/contact_banner.jpg" alt="rocket_contact" />
+    </div>
+    <form onsubmit="return false">
+      <h3>Contact Us</h3>
+      <div class="rap-row">
+        <div class="rap-m-6">
+          <div class="form-group">
+            <input type="text" name="txtName" id="name" class="form-control" placeholder="Your Name *" value="" />
+            <div id="nameerr"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" name="txtEmail" id="email" class="form-control" placeholder="Your Email *" value="" />
+            <div id="emailerr"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" name="txtPhone" id="phone" class="form-control" placeholder="Your Phone Number *"
+              value="" />
+            <div id="phoneerr"></div>
+          </div>
+          <div class="form-group">
+            <input type="submit" name="btnSubmit" class="btnContact" onclick="Validate()" value="Send Message" />
+          </div>
+        </div>
+        <div class="rap-m-6">
+          <div class="form-group">
+            <textarea name="txtMsg" class="form-control" placeholder="Your Message "
+              style="width: 100%; height: 150px;"></textarea>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <footer>
+    <p class="company-name">All Rights Reserved. &copy; 2020 &nbsp; Design By :
+      RAPTORS </p>
+  </footer>
+
+</body>
+<script src="js/khushi-main.js"></script>
+<script src="js/navbar.js"></script>
+
+
+</html>

@@ -1,0 +1,121 @@
+*,
+::after,
+::before {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   background: linear-gradient(to right, #e74c3c, #000000);
+   color: powderblue;
+   font-size: 15px;
+   font-weight: 400;
+   font-family: 'Rubik', sans-serif;
+   text-align: left;
+   line-height: 1.80857;
+}
+
+
+.text-center {
+   text-align: center !important;
+}
+
+
+/*------------------------------------------------------------------
+About
+-------------------------------------------------------------------*/
+
+.about-container {
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto
+}
+
+.about-section-box {
+   padding: 20px;
+   padding-bottom: 40px;
+   background: #ffffff;
+   background: #000000;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #e74c3c, #000000);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #e74c3c, #000000);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.inner-column {
+   text-align: left;
+}
+
+.inner-column h1 {
+   font-family: 'Rubik', sans-serif;
+   font-size: 30px;
+   color: blue;
+   font-weight: 550;
+}
+
+.inner-column h1 span {
+   color: bisque;
+}
+
+.inner-column h4 {
+   font-size: 16px;
+   font-weight: 550;
+}
+
+.inner-column p {
+   font-size: 18px;
+   color: silver;
+
+
+}
+
+/*------------------------------------------------------------------
+   load more
+-------------------------------------------------------------------*/
+#loadmore {
+   display: none;
+}
+
+#loadmorebtn {
+   padding: 15px 33px;
+   background-color: blueviolet;
+   border-radius: 27px;
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media (min-width:576px) {
+   .about-container {
+      max-width: 540px
+   }
+}
+
+@media (min-width:768px) {
+   .about-container {
+      max-width: 720px
+   }
+}
+
+@media (min-width:992px) {
+   .about-container {
+      max-width: 960px
+   }
+}
+
+@media (min-width:1200px) {
+   .about-container {
+      max-width: 1140px
+   }
+}
+
+.about-section-box {
+   padding-bottom: 12%;
+}

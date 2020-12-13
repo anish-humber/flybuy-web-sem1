@@ -1,0 +1,130 @@
+body{
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  margin: 0px;
+}
+.login-page {
+  width:423px;
+    padding: 3% 0 0;
+    margin: auto;
+    font-size: 25px;
+  }
+  .form {
+    position: relative;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7), 0 5px 5px 0 rgba(0, 0, 0, 0.44);
+    background: whitesmoke;
+    margin-bottom: 25px;
+ 
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #FBAB7E;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    font-size: 15px;
+  }
+
+.signup{
+    width: 750px;
+    padding: 3% 0 0;
+    margin: auto;
+    
+
+}
+.formsignup
+{
+    position: relative;
+    padding: 45px; 
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7), 0 5px 5px 0 rgba(0, 0, 0, 0.44);
+
+
+    }
+    .formsignup button:hover,.formsignup button:active,.formsignup button:focus {
+        background: #FBAB7E;
+      }
+
+
+/***styling***/
+.login-page{
+    margin-bottom: 9.9%;
+}
+.login-page h4{
+  float: left;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-top: 4px;
+  color: #363636;
+}
+.login-page h1{
+  color:#363636
+}
+input{
+  padding: 9px 5px;
+  border: 0;
+  border-radius: 16px;
+  border: 1px solid;
+}
+
+input:focus{
+  border-radius: 16px;
+  outline: none;
+ }
+.login-page button,.signup button{
+border: none;
+padding: 15px 53px;
+border-radius: 25px;
+background: #ee8711;
+}
+
+  .formsignup{
+    background-color: whitesmoke;
+  }
+
+.signup{
+  width:555px;
+  margin-bottom: 81px;
+}
+.signup h1{
+  color: #363636;
+}
+
+#signup h4{
+  float: left;
+  margin: 0 3px;
+  text-transform: uppercase;
+  font-size: 19px;
+  padding-top: 4px;
+  color: #363636;
+}
+#signup p{
+  color: #363636;
+}
+
+@media only screen and (max-width: 679px){
+  .login-page ,.signup{
+    width: 65% !important;
+    margin: 0 auto;
+
+  }
+ .signup{
+    width: 93% !important;
+    margin: 0 auto;
+
+  }
+
+}
+@media only screen and (max-width: 900px){
+footer{
+  position: fixed !important;
+  width: 100% !important;
+}
+}
+
+
+
+
+
+ 
